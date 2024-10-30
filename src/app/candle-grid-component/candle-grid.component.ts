@@ -9,9 +9,6 @@ import lodash from 'lodash';
 import { CandleGridItem } from './models/candle-grid-item.model';
 import { CommonModule } from '@angular/common';
 
-
-
-
 @Component({
   selector: 'candle-grid',
   standalone: true,

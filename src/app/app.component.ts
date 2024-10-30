@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { CandleGridComponent } from './candle-grid-component/candle-grid.component';
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [CandleGridComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
